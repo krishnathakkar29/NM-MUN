@@ -1,0 +1,9 @@
+.gradi {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 13, 36, 1) 0%,
+    rgba(0, 9, 25, 1) 1%,
+    rgba(0, 0, 0, 1) 29%,
+    rgba(112, 89, 66, 1) 100%
+  );
+}
