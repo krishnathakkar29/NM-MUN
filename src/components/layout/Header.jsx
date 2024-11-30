@@ -11,7 +11,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
-
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -94,7 +93,10 @@ function Header() {
               Contact
             </Link>
           </nav>
-          <a href="https://bento.me/nmcmunclub?fbclid=PAZXh0bgNhZW0CMTEAAaZMiuvEc1CiKzGJs_xLYyn13snPjhcvz72NzjcjptQLGf9wwMvvdmf_sY8_aem_q6atbXB59-L_6dyV_N2NGQ">
+          <a
+            href="https://bento.me/nmcmunclub?fbclid=PAZXh0bgNhZW0CMTEAAaZMiuvEc1CiKzGJs_xLYyn13snPjhcvz72NzjcjptQLGf9wwMvvdmf_sY8_aem_q6atbXB59-L_6dyV_N2NGQ"
+            target="_blank"
+          >
             <button className=" p-2 md:px-6 md:py-2 text-white element-button rounded-full text-md font-bold uppercase">
               Register Now!
             </button>

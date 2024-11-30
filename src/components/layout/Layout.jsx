@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 function Layout({ children }) {
   return (
     <>
-      <div className="relative min-h-screen bg-[#1a1a2e]">
+      <div className="relative min-h-screen bg-black">
         <Header />
         <Outlet />
       </div>

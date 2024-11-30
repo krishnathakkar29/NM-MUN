@@ -85,7 +85,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl overflow-hidden">
               <img
-                src="/about/people.webp"
+                src="/about/about.png"
                 alt="Arthmos Team"
                 width={800}
                 height={600}
@@ -99,18 +99,21 @@ const About = () => {
                 </div>
                 <h2 className="text-5xl font-bold mt-4">NMCMUN</h2>
                 <p className="text-sm italic text-gray-400 mt-2">
-                 #voiceyouropinion
+                  #voiceyouropinion
                 </p>
               </div>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Kicked off in 2019 by a group of out-of-the-box thinkers who
-                were passionate about the subtleties of statistics, NMCMUN is
-                now at its 5<sup>th</sup> edition, emerging in all its grace and
-                grandeur. We go beyond books and above the ordinary, with
-                spontaneous and hands-on application of quantitative aptitude,
-                management skills, financial capabilities, strategic thinking
-                and data analysis. Thus, giving our 125+ student team the
-                competitive edge is our priority at NMCMUN 2024!
+                Model United Nations or MUN is an educational simulation of the
+                United Nations where students act as delegates representing
+                different countries. Participants engage in debates and
+                negotiations on global issues, working to draft resolutions that
+                reflect international diplomacy and cooperation. NMCMUN is the
+                Model United Nations Club at NM College, established with the
+                goal of fostering an understanding of global issues, diplomacy,
+                and international relations among students. The club provides a
+                platform for students to cultivate essential skills such as
+                public speaking, negotiation and research while engaging in
+                debates that stimulate real world diplomatic scenarios
               </p>
             </div>
           </div>
