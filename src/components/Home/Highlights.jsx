@@ -28,7 +28,7 @@ function Highlights() {
       {/* <div className="w-[90%] mx-auto py-4 flex items-center justify-center bg-gradient-to-br from-gray-900 to-purple-900  border-[1px] border-white rounded-lg"> */}
       <div className="w-[90%] mx-auto py-4 flex items-center justify-center element border-[1px] border-white rounded-lg">
         <h1 className="text-4xl font-serif text-white text-center tracking-wider">
-          ARITHMÓS HIGHLIGHTS
+          NMC MUN HIGHLIGHTS
         </h1>
       </div>
 

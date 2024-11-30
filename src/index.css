@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
 
 /* ... */
 .no-visible-scrollbar {
@@ -15,9 +23,36 @@
 
 /* Applying the gradient to a specific element */
 .element {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 27, 42, 1) 49%, rgba(39, 90, 122, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(13, 27, 42, 1) 49%,
+    rgba(39, 90, 122, 1) 100%
+  );
 }
 
+.element-button {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(13, 27, 42, 1) 49%,
+    rgba(39, 90, 122, 1) 100%
+  );
+  color: white;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.element-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 123, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
 
 @layer base {
   :root {
