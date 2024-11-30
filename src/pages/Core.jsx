@@ -112,79 +112,79 @@ const core = [
     name: "Niharika Bora",
     profile: "HOD Public Relations",
     image: "/core/Niharika.jpeg",
-    link:""
+    link: "",
   },
   {
     name: "Disha Shah",
     profile: "HOD Public Relations",
     image: "/core/Disha.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Aarushi Nandecha",
     profile: "HOD Delegate Affairs",
     image: "/core/Aarushi.jpeg",
-    link:""
+    link: "",
   },
   {
     name: "Namya Sharma",
     profile: "HOD Delegate Affairs",
     image: "/core/Namya.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Kyra Manchanda",
     profile: "HOD Conference Planning",
     image: "/core/Kyra.jpeg",
-    link:""
+    link: "",
   },
   {
     name: "Rahat Mhatre",
     profile: "HOD Events & Management",
     image: "/core/Rahat.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Ishika Giri",
-    profile: "HOD Conference Planning",
+    profile: "HOD Events & Management",
     image: "/core/Ishika.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Sushruti Mishra",
     profile: "HOD Executive Board Outreach",
     image: "/core/Sushruti.png",
-    link:""
+    link: "",
   },
   {
     name: "Yash Shah",
     profile: "HOD Executive Board Outreach",
     image: "/core/Yash.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Devansh Agarwal",
-    profile: "HOD Security & Outreach",
+    profile: "HOD Security & Logistics",
     image: "/core/Devansh.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Anvesha Garg",
-    profile: "HOD Security & Outreach",
+    profile: "HOD Security & Logistics",
     image: "/core/Anvesha.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Akanksha Kulkarni",
     profile: "HOD Research & Editorials",
     image: "/core/Akanksha.jpg",
-    link:""
+    link: "",
   },
   {
     name: "Shubham Gupta",
     profile: "HOD Research & Editorials",
     image: "/core/Shubham.jpg",
-    link:""
+    link: "",
   },
 ];
 
@@ -207,9 +207,7 @@ function Core() {
           </div>
         </div>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-center">
-          Core
-        </h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-center">Core</h1>
         <div className="max-w-[90rem] mx-auto p-4 md:p-8 rounded-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {core.map((item, index) => (

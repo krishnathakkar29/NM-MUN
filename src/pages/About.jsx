@@ -99,7 +99,7 @@ const About = () => {
                 </div>
                 <h2 className="text-5xl font-bold mt-4">NMCMUN</h2>
                 <p className="text-sm italic text-gray-400 mt-2">
-                  ~ A Cognitive Expedition ~
+                 #voiceyouropinion
                 </p>
               </div>
               <p className="text-gray-400 text-lg leading-relaxed">

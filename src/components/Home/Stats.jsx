@@ -153,7 +153,7 @@ function Stats() {
             Do The Bidding
           </h2>
           <p className="text-lg text-gray-300">
-            Arithmós, from its inception, has experienced remarkable growth.
+            NMC MUN, from its inception, has experienced remarkable growth.
             What began as a fledgling concept has flourished into a thriving
             Intercollegiate Management and Strategy Festival at NM College.
           </p>
@@ -165,12 +165,13 @@ function Stats() {
           <div className="w-full sm:w-1/2 p-2 sm:mt-16">
             <StatImage src="/stats/views.png" alt="Event Page Views Statistic" />
           </div>
-          <div className="w-full sm:w-1/2 p-2 sm:-mt-16">
+          {/* <div className="w-full sm:w-1/2 p-2 sm:-mt-16"> */}
+          <div className="w-full sm:w-1/2 p-2 sm:mt-4">
             <StatImage src="/stats/colleges.png" alt="Colleges Statistic" />
           </div>
-          <div className="w-full sm:w-1/2 p-2">
+          {/* <div className="w-full sm:w-1/2 p-2">
             <StatImage src="/stats/colleges.png" alt="Events Statistic" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
