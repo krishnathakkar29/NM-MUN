@@ -37,7 +37,7 @@ const Contact = () => {
                 {
                   icon: FaEnvelope,
                   title: "For Queries:",
-                  email: "info@nmarithmos.org",
+                  email: "nmcmunclub@gmail.com",
                 },
               ].map((item, index) => (
                 <div

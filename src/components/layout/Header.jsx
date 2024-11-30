@@ -100,7 +100,7 @@ function Header() {
             </button>
           </a>
 
-          {/* <Sheet open={isOpen} onOpenChange={setIsOpen}>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
               <Button
                 variant="outline"
@@ -122,7 +122,7 @@ function Header() {
               </SheetHeader>
               <MobileNavLinks />
             </SheetContent>
-          </Sheet> */}
+          </Sheet>
         </div>
       </div>
     </header>

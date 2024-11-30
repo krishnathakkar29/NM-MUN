@@ -11,17 +11,23 @@ function Hero() {
         zIndex: 100,
       }}
     >
-      <div className="max-w-3xl">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">NMC MUN</h1>
-        <p className="mt-4 text-xl md:text-2xl">
+      <div className="max-w-3xl text-center">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-center">
+          NMC MUN
+        </h1>
+        <p className="mt-4 text-xl md:text-2xl text-center">
           The place where <em className="font-serif italic">ideation</em> meets{" "}
           <em className="font-serif italic">execution</em>
         </p>
         {/* <button className="mt-8 px-8 py-3 border-2 border-white rounded-full text-lg uppercase"> */}
-        <button className="shadow-[inset_0_0_0_2px_#616467] text-white px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-white/90 hover:text-black dark:text-neutral-200 transition duration-200 mt-8">
+        <button className="shadow-[inset_0_0_0_2px_#616467] text-center text-white px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-white/90 hover:text-black dark:text-neutral-200 transition duration-200 mt-8 mb-6">
           Events
         </button>
       </div>
+
+      <p className="text-3xl m-6">
+        Supported and <span className="text-blue-400">trusted</span> by
+      </p>
 
       <div className="flex flex-wrap justify-center items-center gap-6 mt-4">
         <div className="flex justify-center items-center w-36">
