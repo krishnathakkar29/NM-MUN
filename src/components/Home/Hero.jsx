@@ -29,7 +29,7 @@ function Hero() {
         Supported and <span className="text-blue-400">trusted</span> by
       </p>
 
-      <div className="flex flex-wrap justify-center items-center gap-6 mt-4">
+      <div className="flex flex-wrap justify-center items-center gap-6 mt-4 mb-20 md:mb-0">
         <div className="flex justify-center items-center w-36">
           <img
             src="/sponsors/media.png"
@@ -55,6 +55,13 @@ function Hero() {
           <img
             src="/sponsors/bakery.png"
             className="max-w-full max-h-16 object-contain"
+            alt="Logo 4"
+          />
+        </div>
+        <div className="flex justify-center items-center w-22">
+          <img
+            src="/sponsors/masala.jpg"
+            className="min-w-full max-h-16 object-contain"
             alt="Logo 4"
           />
         </div>

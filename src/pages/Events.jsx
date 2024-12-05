@@ -226,6 +226,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
+import AnimationWrapper from "@/components/AnimationWrapper";
 
 const images = [
   "/events/unga.png",
@@ -238,36 +239,40 @@ export default function Events() {
   const swiperRef = useRef(null);
 
   return (
-    <div className="min-h-screen py-20 bg-black">
-      <h1 className="text-white text-4xl text-center mb-4 capitalize">NMCMUN Events</h1>
-    <div className="h-screen w-full relative">
-      <Swiper
-        onSwiper={(swiper) => {
-          swiperRef.current = swiper;
-        }}
-        modules={[Navigation, Autoplay, EffectFade]}
-        effect="fade"
-        navigation={{
-          enabled: true,
-        }}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-        }}
-        loop={true}
-        speed={1000}
-        className="h-full w-full"
-        >
-        {images.map((image, index) => (
-          <SwiperSlide key={index} className="relative">
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${image})` }}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <AnimationWrapper title="Events">
+      <div className="min-h-screen py-20 bg-black">
+        <h1 className="text-white text-4xl text-center mb-4 capitalize">
+          NMCMUN Events
+        </h1>
+        <div className="h-screen w-full relative">
+          <Swiper
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+            }}
+            modules={[Navigation, Autoplay, EffectFade]}
+            effect="fade"
+            navigation={{
+              enabled: true,
+            }}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            speed={1000}
+            className="h-full w-full"
+          >
+            {images.map((image, index) => (
+              <SwiperSlide key={index} className="relative">
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${image})` }}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
+      </div>
+    </AnimationWrapper>
   );
 }
