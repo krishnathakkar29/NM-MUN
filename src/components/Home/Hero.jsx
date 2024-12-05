@@ -1,5 +1,6 @@
 import React from "react";
 import bgHome from "/bghome.jpg";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <main
@@ -20,9 +21,11 @@ function Hero() {
           <em className="font-serif italic">execution</em>
         </p>
         {/* <button className="mt-8 px-8 py-3 border-2 border-white rounded-full text-lg uppercase"> */}
-        <button className="shadow-[inset_0_0_0_2px_#616467] text-center text-white px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-white/90 hover:text-black dark:text-neutral-200 transition duration-200 mt-8 mb-6">
-          Events
-        </button>
+        <Link to="/events">
+          <button className="shadow-[inset_0_0_0_2px_#616467] text-center text-white px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-white/90 hover:text-black dark:text-neutral-200 transition duration-200 mt-8 mb-6">
+            Events
+          </button>
+        </Link>
       </div>
 
       <p className="text-3xl m-6">
